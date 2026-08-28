@@ -9,10 +9,6 @@ public:
   // Widgets.
   QSlider _xRadiusSlider;
   QSlider _yRadiusSlider;
-  QSlider _angleSlider;
-  QCheckBox _largeArcFlag;
-  QCheckBox _sweepArcFlag;
-  QLabel _bottomText;
   QBLCanvas _canvas;
 
   // Canvas data.
