@@ -41,8 +41,8 @@ Use the following commands to fetch `asmjit`, `blend2d`, and `blend2d-apps` repo
 ```bash
 # Download source packages from Git.
 $ git clone https://github.com/asmjit/asmjit
-$ git clone https://github.com/blend2d/blend2d
-$ git clone https://github.com/blend2d/blend2d-apps
+$ git clone https://github.com/NJ823/blend2d
+$ git clone https://github.com/NJ823/blend2d-apps
 ```
 
 It can be configured similarly to AsmJit and Blend2D projects:
@@ -63,14 +63,6 @@ Resources
 
   - `bl_demos/bl-qt-tiger.h` uses a tiger data extracted from [amanithvg](http://www.amanithvg.com/)'s tiger example so this data is not covered by the license
 
-Preview
--------
+ 
 
-![Demo App Preview](https://blend2d.com/resources/images/demo-app-1.png) | ![Demo App Preview](https://blend2d.com/resources/images/demo-app-3.png)
----- | ----
-![Demo App Preview](https://blend2d.com/resources/images/demo-app-4.png) | ![Demo App Preview](https://blend2d.com/resources/images/demo-app-6.png)
-
-License
--------
-
-All code samples can be distributed under either UNLICENSE (Public Domain) or Zlib license.
+All code samples can be distributed by Zlib license.
