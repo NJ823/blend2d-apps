@@ -47,7 +47,6 @@ public:
     grid->addWidget(new QLabel("Style:"), 0, 2);
     grid->addWidget(&_styleSelect, 0, 3);
 
-    grid->addItem(new QSpacerItem(0, 0, QSizePolicy::Expanding), 0, 4);
     grid->addWidget(&_limitFpsCheck, 0, 5, Qt::AlignRight);
 
     _canvas.onRenderB2D = std::bind(&MainWindow::onRenderB2D, this, std::placeholders::_1);
