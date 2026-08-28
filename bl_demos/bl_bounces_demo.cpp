@@ -42,9 +42,6 @@ public:
     _styleSelect.addItem("Conic Gradient", QVariant(int(StyleId::kConic)));
     _styleSelect.setCurrentIndex(1);
 
-    connect(&_rendererSelect, SIGNAL(activated(int)), SLOT(onRendererChanged(int)));
-    connect(&_limitFpsCheck, SIGNAL(stateChanged(int)), SLOT(onLimitFpsChanged(int)));
-
     grid->addWidget(new QLabel("Renderer:"), 0, 0);
     grid->addWidget(&_rendererSelect, 0, 1);
 
