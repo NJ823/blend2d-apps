@@ -43,7 +43,6 @@ public:
     _styleSelect.setCurrentIndex(1);
 
     grid->addWidget(new QLabel("Renderer:"), 0, 0);
-    grid->addWidget(&_rendererSelect, 0, 1);
 
     grid->addWidget(new QLabel("Style:"), 0, 2);
     grid->addWidget(&_styleSelect, 0, 3);
